@@ -50,7 +50,6 @@ class Main {
             return false;
         }
     }
-    
 
     private static boolean adminLogin(Scanner scanner) {
         System.out.print("Masukkan username Admin: ");
