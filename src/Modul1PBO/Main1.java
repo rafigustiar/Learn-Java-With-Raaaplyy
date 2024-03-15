@@ -1,7 +1,8 @@
+package Modul1PBO;
+
 import java.util.Scanner;
 
-public class Main {
-
+class Main1 {
 
     private static final String UsernameAdmin = "admin123";
     private static final String PasswordAdmin = "admin123";
