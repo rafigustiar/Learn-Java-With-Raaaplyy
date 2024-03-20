@@ -1,3 +1,5 @@
+package Modul1PBO;
+
 import java.util.Scanner;
 
 public class Main {
