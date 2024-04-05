@@ -1,4 +1,4 @@
-package Modul2PBO;
+package Modul2PBO.CodeLabModul2PBO;
 
 class Mahasiswa {
     String nama;

@@ -1,4 +1,4 @@
-package Modul3PBO;
+package Modul3PBO.CodeLabModul3PBO;
 
 import java.util.Scanner;
 

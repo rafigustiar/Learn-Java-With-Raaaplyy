@@ -1,4 +1,4 @@
-package KegiatanModul2PBO;
+package Modul2PBO.KegiatanModul2PBO;
 
 import java.util.ArrayList;
 import java.util.Scanner;

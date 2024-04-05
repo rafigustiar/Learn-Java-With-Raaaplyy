@@ -1,37 +1,36 @@
-package Modul3PBO;
+package Modul3PBO.CodeLabModul3PBO;
 
 import java.util.Scanner;
 
-public class Balok extends BangunRuang {
+public class Tabung extends BangunRuang {
     Scanner scanner = new Scanner(System.in);
-    private double panjang;
-    private double lebar;
     private double tinggi;
+    private double jari_jari;
 
-    Balok(String nameBangun) {super(nameBangun);}
+    Tabung(String nameBangun) {
+        super(nameBangun);
+    }
 
     @Override
     public void inputNilai() {
         super.inputNilai();
-        System.out.println("=== KALKULATOR BALOK ===");
-        System.out.print("Input Panjang : ");
-        panjang = scanner.nextDouble();
-        System.out.print("Input Lebar : ");
-        lebar = scanner.nextDouble();
+        System.out.println("=== KALKULATOR TABUNG ===");
         System.out.print("Input Tinggi : ");
         tinggi = scanner.nextDouble();
+        System.out.print("Input Jari-Jari : ");
+        jari_jari = scanner.nextDouble();
     }
 
     @Override
     public void luasPermukaan() {
-        double hasil = 2 * ((panjang * lebar)+(panjang * tinggi)+(tinggi * lebar)) ;
+        double hasil = 2 * Math.PI * jari_jari * (jari_jari + tinggi);
         super.luasPermukaan();
         System.out.println("Hasil Luas Permukaan : " + hasil);
     }
 
     @Override
     public void volume() {
-        double hasil = panjang * lebar * tinggi;
+        double hasil = Math.PI * Math.pow(jari_jari, 2) * tinggi;
         super.volume();
         System.out.println("Hasil Volume : " + hasil);
     }

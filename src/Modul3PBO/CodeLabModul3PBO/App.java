@@ -1,4 +1,4 @@
-package Modul3PBO;
+package Modul3PBO.CodeLabModul3PBO;
 
 public class App {
     public static void main(String[] args) {
